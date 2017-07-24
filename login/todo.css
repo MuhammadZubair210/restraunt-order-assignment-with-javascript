@@ -1,0 +1,120 @@
+ul{
+    margin :2px;
+    padding: 2px;
+}
+li, .subheading{    
+    border: 2px solid beige;
+    width: 450px;
+    border-width: 5px;
+    background-color: darkslategray;
+    color: coral;
+    border-collapse: separate;
+    border-color: indianred;
+}
+img{
+    width :200px;
+    height: 100px;
+    background-color: gray;
+}
+.menu{
+    background-color: #ff0000;
+    color: #ffff00;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 2px black;
+}
+.price{
+    font-size: 10px;
+}
+#header1 , .center , .slides{
+    background-color: darkslategray;
+    padding: 0.2%;
+    margin : 0.5%;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+#heading , .center , .price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    align-content: center;
+}
+#log{
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.center{
+    height: 100%;
+    text-align:center;
+}
+.subheading{
+    text-align: center;
+}
+button{
+    border: none;
+    background-color: darkslategray;
+    color: coral;
+    border-radius: 1px;
+}
+button:hover{
+    background-color: grey;
+}
+.mySlides{
+    width: 500px;
+    height: 150px;
+}
+#menuimages{
+    background-color: #fa8072;
+    float: right;
+    text-align: center;
+    box-shadow: 0px 0px 10px #fa8072;
+}
+#mark{
+    float: right;
+    width: 300px;
+    height:30px;
+    margin: 2.5%;
+    font-size: 20px;
+    color: white;
+    background-color: #8b4513;
+    border: 1px solid #8b4513;
+    border-radius: 20px;
+}
+#weValue{
+    font-size: 15px;
+    padding: 0% 10% 0% 10%;
+}
+
+ @keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: red;
+    } 
+    100% {
+       background: darkred;
+    } 
+ }
+ body {
+   width: 100%;
+   height: 100%;
+   margin:0.2%;
+   animation: color-animation 5s infinite linear alternate;
+}
+#dustbin{
+    width: 15px;
+    height:15px;
+}
+#marq{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #8b4513;
+    border: 1px solid #8b4513;
+    border-radius: 20px;
+}
+#note{
+           background: darkred;
+}

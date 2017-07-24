@@ -1,0 +1,159 @@
+body{
+    margin: 1%;
+}
+#header{
+    background-color: yellow;
+    color: coral;
+    padding: 0.2%;
+    margin : 0.5%;
+    width: 100%;
+    height: 100px;
+    border-radius: 3%;
+}
+#section{
+    background-color: yellowgreen;
+    padding: 2%;
+    margin: 2% 0.5%;
+    align-content: center;
+    width: 100%;
+    border-radius: 3%;
+}
+body{
+    background-color: red;
+}
+#heading , .about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: saddlebrown;
+}
+div{
+    width : 100%;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    width: 170px;
+    height: 70px;
+    margin: 2%;
+    cursor: pointer;
+    border-radius: 10%;
+}
+img{
+    width: 100%;
+    height:400px;
+}
+#log{
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+}
+#a{
+    width: 100%;
+    background-color: #a0522d;
+    border-radius: 20px;
+    text-align: center;
+}
+.links{
+    width: 70%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 40px;
+}
+.mySlides{
+    border-radius: 70px;
+}
+figcaption{
+    color: blanchedalmond;
+    width: 0% 100% auto; 
+}
+#links , .a{
+    color: darkgreen;
+    background-color: #fa8072;
+    text-decoration: none;
+    padding: 1.2% 6%;
+    margin: 0.1%;
+    width: 90%;
+    border-radius: 20px;
+}
+.a:hover{
+    background-color: grey;
+    color:#ff0000;
+    cursor: pointer;
+}
+#b{
+    background-color: #bdb76b;
+    border-radius: 20px;
+    height: 100%;
+}
+h3{
+    text-indent: center;
+    color: #800000;
+     padding:0.5%;
+}
+.about , .flavours{
+    background-color: salmon;
+    text-align: center;
+    border-radius: 800px;
+}
+#article11{
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+}
+#map{
+    border-radius: 20px;
+}
+#clifton{
+    float:right;
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+}
+#c{
+    background-color: #f4a460;
+    border-radius: 20px;
+    height: 400px;
+}
+h2{
+    color: #000000;
+    padding: 0.4%;
+    margin: 0.4%;
+    background-color:khaki;
+    border-radius: 20px;
+}
+span{
+        color: #8b0000;
+}
+#mark{
+    float: right;
+    width: 300px;
+    height:30px;
+    margin: 2.5%;
+    font-size: 20px;
+    color: white;
+    background-color: #8b4513;
+    border: 1px solid #8b4513;
+    border-radius: 20px;
+}
+#weValue{
+    font-size: 15px;
+    padding: 0% 10% 0% 10%;
+}
+ @keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: red;
+    } 
+    100% {
+       background: darkred;
+    } 
+ }
+
+figcaption , body {
+   width: 100%;
+   height: 100%;
+   animation: color-animation 5s infinite linear alternate;
+}
